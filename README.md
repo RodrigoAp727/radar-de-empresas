@@ -167,4 +167,4 @@ data/gold/         CSVs publicados a cada carga
 
 ---
 
-Feito por **Rodrigo Campos**, que trabalha com rotina fiscal e contábil de mais de 300 empresas e agora com engenharia e análise de dados. [LinkedIn](https://www.linkedin.com/in/SEU-PERFIL)
+Feito por **Rodrigo Campos**: engenharia e análise de dados aplicadas ao fiscal e tributário, com a vivência da rotina fiscal de mais de 300 empresas. [LinkedIn](https://www.linkedin.com/in/rodrigo-aparecido-397a0b154/)
