@@ -1,0 +1,28 @@
+name: radar
+version: "1.0.0"
+config-version: 2
+profile: radar
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+clean-targets: ["target", "logs"]
+
+vars:
+  # Pasta AAAA-MM da Receita. O run.py sobrescreve com a referência processada.
+  referencia: "2026-09"
+  # Abaixo disso, a carga veio incompleta (a base de set/2026 tem 73,4 milhões de estabelecimentos).
+  min_estabelecimentos: 65000000
+  # Início da série publicada no dashboard.
+  inicio_serie: "2010-01-01"
+
+models:
+  radar:
+    silver:
+      +materialized: view
+    intermediate:
+      # Tabela: é lida por todos os modelos gold, então vale pagar o custo uma vez só.
+      +materialized: table
+    gold:
+      +materialized: table

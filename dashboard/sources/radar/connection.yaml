@@ -1,0 +1,4 @@
+name: radar
+type: duckdb
+options:
+  filename: radar_gold.duckdb

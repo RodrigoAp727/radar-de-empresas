@@ -1,0 +1,56 @@
+name: Dashboard
+
+# Reconstrói o site estático (Evidence) e publica no GitHub Pages.
+on:
+  push:
+    branches: [main]
+    paths: ["dashboard/**"]
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: dashboard
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main  # pega o commit de dados que o pipeline acabou de fazer
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: dashboard/package-lock.json
+
+      - run: npm ci
+      - run: npm run sources
+      # build:strict falha se alguma consulta SQL das páginas quebrar.
+      - run: npm run build:strict
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          # O site sai em build/ com os links já prefixados pelo basePath (evidence.config.yaml).
+          path: dashboard/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

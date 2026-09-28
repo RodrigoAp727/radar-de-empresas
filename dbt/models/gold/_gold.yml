@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: gold_aberturas_fechamentos
+    description: Aberturas e fechamentos de empresas por mês, UF, setor e perfil (MEI ou demais). Só meses completos.
+    columns:
+      - name: mes
+        data_tests: [not_null]
+      - name: aberturas
+        data_tests: [not_null]
+
+  - name: gold_sobrevivencia
+    description: >
+      Taxa de sobrevivência por coorte de abertura. Taxa = sobreviventes / empresas_avaliadas.
+      Some as duas colunas antes de dividir quando agregar.
+    columns:
+      - name: anos
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [1, 2, 3, 5, 10]
+                quote: false
+
+  - name: gold_mei_mensal
+    description: Entradas e saídas do MEI por mês, UF e setor.
+
+  - name: gold_migracao_mei
+    description: Destino das empresas que deixaram o MEI, por ano de saída.
+    columns:
+      - name: destino
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Encerrou", "Cresceu no Simples (ME/EPP)", "Ativa fora do Simples", "Inapta/suspensa/outros"]
+
+  - name: gold_retrato_uf
+    description: Fotografia da base na data da carga (empresas ativas por regime), por UF e setor.
+
+  - name: gold_campanhas_eleitorais
+    description: >
+      CNPJs de campanha eleitoral (natureza 409-0) por ano e UF. Excluídos das métricas de empresas
+      porque são abertos e baixados em massa (baixa automática em 31/12 do ano da eleição).

@@ -1,0 +1,9 @@
+cnpj,esperado_valido,caso
+11222333000181,true,Numérico válido
+11222333000182,false,Numérico com o 2º dígito verificador errado
+11222333000191,false,Numérico com o 1º dígito verificador errado
+12ABC34501DE35,true,Alfanumérico: exemplo oficial da Receita (12.ABC.345/01DE-35)
+12ABC34501DE53,false,Alfanumérico com dígitos verificadores trocados
+12abc34501de35,false,Letras minúsculas não são aceitas
+1122233300018,false,13 posições
+1122233300018A,false,Letra na posição de dígito verificador

@@ -1,0 +1,13 @@
+deployment:
+  # Publicado em https://<usuario>.github.io/radar-de-empresas/ (precisa bater com o nome do repositório).
+  basePath: /radar-de-empresas
+
+appearance:
+  default: light
+  switcher: true
+
+plugins:
+  components:
+    "@evidence-dev/core-components": {}
+  datasources:
+    "@evidence-dev/duckdb": {}

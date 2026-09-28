@@ -1,0 +1,19 @@
+[project]
+name = "radar-de-empresas"
+version = "1.0.0"
+description = "Pipeline de dados sobre abertura e fechamento de empresas no Brasil (base pública do CNPJ)."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Rodrigo Campos" }]
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

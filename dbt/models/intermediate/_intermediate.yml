@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: int_empresas
+    description: Uma linha por empresa (estabelecimento matriz), enriquecida com setor, região, regime e tipo de baixa.
+    columns:
+      - name: cnpj
+        data_tests: [unique, not_null]

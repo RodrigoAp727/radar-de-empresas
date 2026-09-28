@@ -1,0 +1,32 @@
+motivo,tipo_baixa,justificativa
+01,Voluntária,Extinção por encerramento/liquidação voluntária
+06,Voluntária,Encerramento da liquidação
+54,Voluntária,Baixa simplificada de ME/EPP pedida pelo titular (LC 123/2006)
+80,Voluntária,Baixa pedida e registrada na Junta Comercial
+02,Reorganização societária,Incorporação
+03,Reorganização societária,Fusão
+04,Reorganização societária,Cisão total
+07,Reorganização societária,Elevação a matriz
+08,Reorganização societária,Transpasse
+28,Reorganização societária,Transferência de filial à condição de matriz
+31,Reorganização societária,Extinção por unificação da filial
+05,Falência ou liquidação judicial,Encerramento da falência
+10,Falência ou liquidação judicial,Extinção pelo encerramento da liquidação judicial
+75,Falecimento do titular,Óbito do MEI
+12,De ofício,Anulação online de ofício
+13,De ofício,Omissa contumaz
+14,De ofício,Omissa não localizada
+15,De ofício,Inexistência de fato
+36,De ofício,Prática irregular de operação de comércio exterior
+60,De ofício,"Artigo 30, VI, da IN 748/2007"
+61,De ofício,Indício de interposição fraudulenta
+62,De ofício,Falta de pluralidade de sócios
+63,De ofício,Omissão de declarações
+64,De ofício,Localização desconhecida
+66,De ofício,Inaptidão
+67,De ofício,Registro cancelado
+70,De ofício,Anulação por não confirmação do registro do MEI na Junta
+71,De ofício,Inaptidão (Lei 11.941/2009 art. 54)
+73,De ofício,Omissão contumaz
+74,De ofício,Inconsistência cadastral
+81,De ofício,Solicitação da administração tributária estadual/municipal

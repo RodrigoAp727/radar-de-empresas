@@ -1,0 +1,85 @@
+version: 2
+
+# Testes unitários: entradas fixas -> saída esperada, sem depender da base real.
+# Cobrem as regras de negócio mais fáceis de errar sem perceber.
+
+unit_tests:
+  - name: sobrevivencia_so_avalia_coortes_com_tempo_suficiente
+    description: >
+      Uma empresa aberta em jan/2025 só pode entrar na taxa de 1 ano (carga de set/2026).
+      Empresas de 2020 entram nos horizontes de 1, 2, 3 e 5 anos, mas não no de 10.
+      Inapta desde jan/2022 sobrevive na medida cadastral, mas não na medida "ativas" a partir de 2 anos.
+    model: gold_sobrevivencia
+    overrides:
+      vars: { referencia: "2026-09", inicio_serie: "2010-01-01" }
+    given:
+      - input: ref('int_empresas')
+        rows:
+          - { cnpj: "A", data_inicio_atividade: 2020-06-01, data_baixa: 2021-03-01, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: false }
+          - { cnpj: "B", data_inicio_atividade: 2020-06-01, data_baixa: null, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: false }
+          - { cnpj: "C", data_inicio_atividade: 2025-01-10, data_baixa: null, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: false }
+          - { cnpj: "D", data_inicio_atividade: 2020-06-01, data_baixa: null, data_inaptidao: 2022-01-01, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: false }
+    expect:
+      rows:
+        - { ano_abertura: 2020, anos: 1, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, perfil: Demais, empresas_avaliadas: 3, sobreviventes: 2, sobreviventes_ativas: 2 }
+        - { ano_abertura: 2020, anos: 2, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, perfil: Demais, empresas_avaliadas: 3, sobreviventes: 2, sobreviventes_ativas: 1 }
+        - { ano_abertura: 2020, anos: 3, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, perfil: Demais, empresas_avaliadas: 3, sobreviventes: 2, sobreviventes_ativas: 1 }
+        - { ano_abertura: 2020, anos: 5, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, perfil: Demais, empresas_avaliadas: 3, sobreviventes: 2, sobreviventes_ativas: 1 }
+        - { ano_abertura: 2025, anos: 1, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, perfil: Demais, empresas_avaliadas: 1, sobreviventes: 1, sobreviventes_ativas: 1 }
+
+  - name: migracao_mei_classifica_destino
+    description: >
+      Saiu do MEI e foi baixada em até 60 dias = encerrou; continua no Simples = cresceu;
+      ativa fora do Simples = Presumido/Real. Saídas no mês da carga ficam de fora.
+    model: gold_migracao_mei
+    overrides:
+      vars: { referencia: "2026-09", inicio_serie: "2010-01-01" }
+    given:
+      - input: ref('int_empresas')
+        rows:
+          - { cnpj: "A", data_exclusao_mei: 2025-03-10, baixada: true, data_baixa: 2025-03-20, optante_simples: false, ativa: false, uf: SP, regiao: Sudeste, setor: Comércio }
+          - { cnpj: "B", data_exclusao_mei: 2025-05-01, baixada: false, data_baixa: null, optante_simples: true, ativa: true, uf: SP, regiao: Sudeste, setor: Comércio }
+          - { cnpj: "C", data_exclusao_mei: 2025-07-01, baixada: false, data_baixa: null, optante_simples: false, ativa: true, uf: SP, regiao: Sudeste, setor: Comércio }
+          - { cnpj: "D", data_exclusao_mei: 2025-01-01, baixada: true, data_baixa: 2025-12-01, optante_simples: false, ativa: false, uf: SP, regiao: Sudeste, setor: Comércio }
+          - { cnpj: "E", data_exclusao_mei: 2026-09-05, baixada: false, data_baixa: null, optante_simples: true, ativa: true, uf: SP, regiao: Sudeste, setor: Comércio }
+    expect:
+      rows:
+        - { ano_saida: 2025, uf: SP, regiao: Sudeste, setor: Comércio, destino: "Encerrou", empresas: 1 }
+        - { ano_saida: 2025, uf: SP, regiao: Sudeste, setor: Comércio, destino: "Cresceu no Simples (ME/EPP)", empresas: 1 }
+        - { ano_saida: 2025, uf: SP, regiao: Sudeste, setor: Comércio, destino: "Ativa fora do Simples", empresas: 1 }
+        - { ano_saida: 2025, uf: SP, regiao: Sudeste, setor: Comércio, destino: "Inapta/suspensa/outros", empresas: 1 }
+
+  - name: aberturas_fechamentos_separa_motivo_e_exclui_mes_corrente
+    description: >
+      Baixa de ofício não pode ser contada como voluntária, inaptidão entra em coluna própria, e o mês da carga (incompleto) fica de fora.
+    model: gold_aberturas_fechamentos
+    overrides:
+      vars: { referencia: "2026-09", inicio_serie: "2010-01-01" }
+    given:
+      - input: ref('int_empresas')
+        rows:
+          - { cnpj: "A", data_inicio_atividade: 2026-08-10, baixada: false, data_baixa: null, tipo_baixa: null, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: true }
+          - { cnpj: "B", data_inicio_atividade: 2015-01-01, baixada: true, data_baixa: 2026-08-15, tipo_baixa: "De ofício", uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: true }
+          - { cnpj: "C", data_inicio_atividade: 2015-01-01, baixada: true, data_baixa: 2026-08-20, tipo_baixa: "Voluntária", uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: true }
+          - { cnpj: "D", data_inicio_atividade: 2026-09-02, baixada: false, data_baixa: null, tipo_baixa: null, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: true }
+          - { cnpj: "E", data_inicio_atividade: 2015-01-01, baixada: false, data_baixa: null, tipo_baixa: null, inapta: true, data_inaptidao: 2026-08-05, inapta_por_omissao: true, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: true }
+    expect:
+      rows:
+        - { mes: 2015-01-01, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, perfil: MEI, aberturas: 3, fechamentos: 0, fechamentos_voluntarios: 0, fechamentos_de_oficio: 0, fechamentos_outros: 0, inaptidoes: 0, inaptidoes_por_omissao: 0 }
+        - { mes: 2026-08-01, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, perfil: MEI, aberturas: 1, fechamentos: 2, fechamentos_voluntarios: 1, fechamentos_de_oficio: 1, fechamentos_outros: 0, inaptidoes: 1, inaptidoes_por_omissao: 1 }
+
+  - name: cnpj_de_campanha_nao_conta_como_empresa
+    description: >
+      CNPJs de candidato (natureza 409-0) são abertos e baixados em massa em anos de eleição;
+      não podem entrar em aberturas nem fechamentos.
+    model: gold_aberturas_fechamentos
+    overrides:
+      vars: { referencia: "2026-09", inicio_serie: "2010-01-01" }
+    given:
+      - input: ref('int_empresas')
+        rows:
+          - { cnpj: "A", natureza_juridica: "2135", data_inicio_atividade: 2024-08-10, baixada: false, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, nasceu_mei: true }
+          - { cnpj: "B", natureza_juridica: "4090", data_inicio_atividade: 2024-08-15, baixada: true, data_baixa: 2024-12-31, tipo_baixa: "Voluntária", uf: SP, regiao: Sudeste, secao: S, setor: Outros serviços, nasceu_mei: false }
+    expect:
+      rows:
+        - { mes: 2024-08-01, uf: SP, regiao: Sudeste, secao: G, setor: Comércio, perfil: MEI, aberturas: 1, fechamentos: 0 }

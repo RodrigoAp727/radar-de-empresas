@@ -1,0 +1,79 @@
+version: 2
+
+models:
+  - name: stg_estabelecimentos
+    description: >
+      Estabelecimentos (matrizes e filiais) com tipos corrigidos. Situação cadastral:
+      01 nula, 02 ativa, 03 suspensa, 04 inapta, 08 baixada.
+    columns:
+      - name: cnpj
+        description: CNPJ de 14 posições. Pode ser alfanumérico (IN RFB 2.229/2024, a partir de jul/2026).
+        data_tests:
+          - not_null
+          - unique
+          - cnpj_dv_valido:
+              config:
+                warn_if: ">0"
+                error_if: ">1000"
+      - name: situacao_cadastral
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["01", "02", "03", "04", "08"]
+              config:
+                warn_if: ">0"
+                error_if: ">1000"
+      - name: data_inicio_atividade
+        data_tests:
+          - not_null:
+              config:
+                warn_if: ">0"
+                error_if: ">10000"
+      - name: cnae_principal
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_cnaes')
+                field: cnae
+              config:
+                warn_if: ">0"
+                error_if: ">10000"
+      - name: uf
+        data_tests:
+          - not_null:
+              config:
+                warn_if: ">0"
+                error_if: ">10000"
+
+  - name: stg_empresas
+    description: Empresas (raiz do CNPJ, 8 primeiras posições) com natureza jurídica, porte e capital social.
+    columns:
+      - name: cnpj_basico
+        data_tests:
+          - not_null
+          - unique  # deduplicado no modelo; duplicatas da origem: assert_duplicatas_na_origem
+
+  - name: stg_simples
+    description: Opção pelo Simples Nacional e pelo MEI (SIMEI). Guarda só o período mais recente de cada regime.
+    columns:
+      - name: cnpj_basico
+        data_tests:
+          - not_null
+          - unique  # deduplicado no modelo; duplicatas da origem: assert_duplicatas_na_origem
+
+  - name: stg_cnaes
+    columns:
+      - name: cnae
+        data_tests: [unique, not_null]
+
+  - name: stg_motivos
+    description: Motivos de situação cadastral, classificados em tipo de baixa (voluntária, de ofício etc.).
+    columns:
+      - name: motivo
+        data_tests: [unique, not_null]
+      - name: tipo_baixa
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Voluntária", "Reorganização societária", "Falência ou liquidação judicial",
+                         "Falecimento do titular", "De ofício", "Outros"]

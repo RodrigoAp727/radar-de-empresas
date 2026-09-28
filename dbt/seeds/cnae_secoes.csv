@@ -1,0 +1,22 @@
+secao,divisao_inicio,divisao_fim,secao_nome,secao_curta
+A,1,3,"Agricultura, pecuária, produção florestal, pesca e aquicultura",Agropecuária
+B,5,9,Indústrias extrativas,Extrativa
+C,10,33,Indústrias de transformação,Indústria
+D,35,35,"Eletricidade e gás",Energia
+E,36,39,"Água, esgoto, atividades de gestão de resíduos e descontaminação",Saneamento
+F,41,43,Construção,Construção
+G,45,47,Comércio; reparação de veículos automotores e motocicletas,Comércio
+H,49,53,"Transporte, armazenagem e correio",Transporte
+I,55,56,Alojamento e alimentação,Alimentação e hospedagem
+J,58,63,Informação e comunicação,Tecnologia e comunicação
+K,64,66,"Atividades financeiras, de seguros e serviços relacionados",Financeiro
+L,68,68,Atividades imobiliárias,Imobiliário
+M,69,75,"Atividades profissionais, científicas e técnicas",Serviços profissionais
+N,77,82,Atividades administrativas e serviços complementares,Serviços administrativos
+O,84,84,"Administração pública, defesa e seguridade social",Administração pública
+P,85,85,Educação,Educação
+Q,86,88,Saúde humana e serviços sociais,Saúde
+R,90,93,"Artes, cultura, esporte e recreação",Cultura e lazer
+S,94,96,Outras atividades de serviços,Outros serviços
+T,97,97,Serviços domésticos,Serviços domésticos
+U,99,99,Organismos internacionais e outras instituições extraterritoriais,Organismos internacionais

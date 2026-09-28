@@ -1,0 +1,30 @@
+name: CI
+
+# Em todo push e pull request: lint, testes em Python e o pipeline completo
+# (bronze + dbt build com testes de dados e testes unitários) sobre dados sintéticos.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements-dev.txt
+
+      - name: Lint (ruff)
+        run: ruff check .
+
+      - name: Testes (pytest + dbt build em dados sintéticos)
+        run: pytest -v

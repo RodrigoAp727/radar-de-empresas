@@ -1,0 +1,36 @@
+version: 2
+
+seeds:
+  - name: cnae_secoes
+    description: Seções da CNAE 2.3 (IBGE) por faixa de divisão (2 primeiros dígitos do código).
+    config:
+      column_types:
+        divisao_inicio: integer
+        divisao_fim: integer
+    columns:
+      - name: secao
+        data_tests: [unique, not_null]
+
+  - name: motivos_tipo_baixa
+    description: >
+      Classificação manual dos motivos de situação cadastral da Receita em tipos de baixa.
+      Revisada com base na tabela oficial de motivos (setembro/2026).
+    config:
+      column_types:
+        motivo: varchar
+    columns:
+      - name: motivo
+        data_tests: [unique, not_null]
+
+  - name: cnpjs_exemplo
+    description: Casos conhecidos (válidos e inválidos) para testar a regra de dígito verificador do CNPJ.
+    config:
+      column_types:
+        cnpj: varchar
+        esperado_valido: boolean
+
+  - name: ufs
+    description: Unidades da federação e região geográfica (IBGE).
+    columns:
+      - name: uf
+        data_tests: [unique, not_null]

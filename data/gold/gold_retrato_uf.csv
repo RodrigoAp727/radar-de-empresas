@@ -1,0 +1,588 @@
+referencia,uf,regiao,setor,empresas_ativas,mei_ativos,simples_me_epp_ativas,fora_do_simples_ativas,inaptas,cnpjs_alfanumericos
+2026-09,SP,Sudeste,Outros serviços,678362,448396,64903,165070,214219,0
+2026-09,SC,Sul,Comércio,295730,130826,109809,55102,112226,0
+2026-09,ES,Sudeste,Construção,48031,33225,7169,7638,19353,0
+2026-09,AL,Nordeste,Outros serviços,22339,10996,1178,10165,9635,0
+2026-09,RJ,Sudeste,Comércio,462922,256632,128060,78233,326527,0
+2026-09,PR,Sul,Educação,67108,42326,18880,5904,8983,0
+2026-09,PA,Norte,Comércio,177156,81282,66584,29293,131733,0
+2026-09,PE,Nordeste,Serviços profissionais,47831,19985,20268,7578,13345,0
+2026-09,ES,Sudeste,Indústria,52293,35845,10611,5838,19331,0
+2026-09,MS,Centro-Oeste,Alimentação e hospedagem,27351,17966,5489,3896,14400,0
+2026-09,GO,Centro-Oeste,Comércio,272970,133916,94350,44712,143900,0
+2026-09,DF,Centro-Oeste,Serviços profissionais,47233,13965,24100,9169,11688,0
+2026-09,PE,Nordeste,Transporte,69475,59373,4756,5347,24129,0
+2026-09,CE,Nordeste,Cultura e lazer,8960,3048,3958,1954,4111,0
+2026-09,RN,Nordeste,Comércio,85671,45536,26357,13778,48483,0
+2026-09,MG,Sudeste,Serviços administrativos,243272,99270,68111,75898,39892,0
+2026-09,MT,Centro-Oeste,Indústria,42502,25128,10441,6933,17763,0
+2026-09,AM,Norte,Serviços profissionais,21146,7387,9867,3892,7446,0
+2026-09,CE,Nordeste,Tecnologia e comunicação,18411,7243,8244,2924,3809,0
+2026-09,MG,Sudeste,Financeiro,43602,2,6860,36740,4155,0
+2026-09,MG,Sudeste,Saúde,115756,15155,72890,27711,16864,0
+2026-09,RS,Sul,Educação,61449,39599,15940,5913,9485,0
+2026-09,PB,Nordeste,Educação,15204,9964,2903,2337,3231,0
+2026-09,DF,Centro-Oeste,Transporte,37607,31814,2806,2987,11380,0
+2026-09,AM,Norte,Transporte,25865,20310,2850,2706,10920,0
+2026-09,RJ,Sudeste,Imobiliário,21250,2,7759,13489,4348,0
+2026-09,RR,Norte,Transporte,3110,2534,306,270,695,0
+2026-09,PI,Nordeste,Transporte,13365,10632,1670,1063,3851,0
+2026-09,MT,Centro-Oeste,Construção,49526,32086,8938,8502,20345,0
+2026-09,SC,Sul,Imobiliário,36258,4,13622,22632,2391,0
+2026-09,MA,Nordeste,Educação,14100,7190,2859,4051,4312,0
+2026-09,PA,Norte,Imobiliário,3098,0,1187,1911,812,0
+2026-09,EX,Exterior,Serviços profissionais,2450,0,0,2450,15,0
+2026-09,BA,Nordeste,Educação,47244,27876,9863,9506,13393,0
+2026-09,RR,Norte,Serviços profissionais,3618,1535,1626,457,880,0
+2026-09,AP,Norte,Comércio,16445,6373,6875,3197,16521,0
+2026-09,PI,Nordeste,Serviços profissionais,13980,4809,6887,2284,3645,0
+2026-09,TO,Norte,Educação,4261,2425,992,844,1172,0
+2026-09,EX,Exterior,Extrativa,315,0,0,315,2,0
+2026-09,SE,Nordeste,Serviços administrativos,10520,4810,3250,2460,3141,0
+2026-09,GO,Centro-Oeste,Imobiliário,10730,0,3997,6733,1747,0
+2026-09,SE,Nordeste,Saúde,7814,1620,4667,1527,1094,0
+2026-09,RO,Norte,Tecnologia e comunicação,2574,1221,972,381,798,0
+2026-09,RN,Nordeste,Imobiliário,3076,0,1052,2024,727,0
+2026-09,MS,Centro-Oeste,Agropecuária,7419,2172,1789,3458,1763,0
+2026-09,MS,Centro-Oeste,Serviços domésticos,3709,3545,9,155,1110,0
+2026-09,SE,Nordeste,Financeiro,1482,0,435,1047,314,0
+2026-09,AC,Norte,Cultura e lazer,571,143,190,238,337,0
+2026-09,MS,Centro-Oeste,Saneamento,906,461,249,196,367,0
+2026-09,MG,Sudeste,Administração pública,6869,0,0,6869,265,0
+2026-09,AC,Norte,Tecnologia e comunicação,936,421,345,170,357,0
+2026-09,RO,Norte,Cultura e lazer,1503,394,613,496,722,0
+2026-09,EX,Exterior,Transporte,585,0,0,585,3,0
+2026-09,AM,Norte,Extrativa,92,0,22,70,117,0
+2026-09,RR,Norte,Extrativa,53,0,21,32,32,0
+2026-09,SE,Nordeste,Administração pública,638,0,0,638,20,0
+2026-09,PI,Nordeste,Extrativa,226,0,128,98,121,0
+2026-09,AP,Norte,Imobiliário,281,0,123,158,83,0
+2026-09,PE,Nordeste,Extrativa,372,0,151,221,214,0
+2026-09,DF,Centro-Oeste,Extrativa,85,0,13,72,101,0
+2026-09,MS,Centro-Oeste,Energia,152,0,1,151,19,0
+2026-09,RS,Sul,Organismos internacionais,30,0,0,30,7,0
+2026-09,PR,Sul,Organismos internacionais,22,0,0,22,1,0
+2026-09,BA,Nordeste,Organismos internacionais,12,0,0,12,11,0
+2026-09,MA,Nordeste,Organismos internacionais,1,0,0,1,5,0
+2026-09,TO,Norte,Organismos internacionais,0,0,0,0,1,0
+2026-09,PB,Nordeste,Organismos internacionais,1,0,0,1,1,0
+2026-09,SP,Sudeste,Comércio,1742305,784223,650625,307502,910318,0
+2026-09,RS,Sul,Alimentação e hospedagem,96262,60831,23732,11702,59271,0
+2026-09,DF,Centro-Oeste,Construção,30845,14281,7120,9445,14497,0
+2026-09,RJ,Sudeste,Outros serviços,234875,155698,16179,63003,119944,0
+2026-09,AL,Nordeste,Comércio,66736,36818,18877,11043,49561,0
+2026-09,BA,Nordeste,Alimentação e hospedagem,90879,61533,19221,10126,60203,0
+2026-09,PA,Norte,Outros serviços,49594,21593,3696,24305,28099,0
+2026-09,PR,Sul,Alimentação e hospedagem,112566,71209,28381,12978,58126,0
+2026-09,PI,Nordeste,Construção,11995,5671,3289,3035,5349,0
+2026-09,MG,Sudeste,Cultura e lazer,35842,14503,13573,7766,10828,0
+2026-09,GO,Centro-Oeste,Outros serviços,93531,58843,6244,28446,28364,0
+2026-09,DF,Centro-Oeste,Indústria,24058,16232,4397,3429,12491,0
+2026-09,MT,Centro-Oeste,Transporte,50146,34072,9367,6708,11899,0
+2026-09,PE,Nordeste,Indústria,58663,37728,12997,7939,33919,0
+2026-09,ES,Sudeste,Transporte,50361,41122,5108,4133,10603,0
+2026-09,MG,Sudeste,Tecnologia e comunicação,65729,27060,29003,9667,10552,0
+2026-09,RN,Nordeste,Outros serviços,31174,17599,1856,11719,12173,0
+2026-09,SC,Sul,Outros serviços,132445,81203,12203,39043,33013,0
+2026-09,ES,Sudeste,Serviços profissionais,42243,18939,18138,5166,9488,0
+2026-09,SP,Sudeste,Imobiliário,116538,1,39625,76912,12566,0
+2026-09,PE,Nordeste,Construção,38092,22856,6080,9156,19678,0
+2026-09,CE,Nordeste,Saúde,26697,1468,17720,7509,4655,0
+2026-09,RS,Sul,Serviços domésticos,25027,24166,86,776,6073,0
+2026-09,MS,Centro-Oeste,Educação,11037,6863,2864,1310,1939,0
+2026-09,TO,Norte,Alimentação e hospedagem,12332,8616,2458,1259,6467,0
+2026-09,RS,Sul,Agropecuária,13317,5959,2914,4444,3356,0
+2026-09,PI,Nordeste,Indústria,14327,8250,3984,2093,7005,0
+2026-09,PR,Sul,Serviços domésticos,31959,31074,103,782,5090,0
+2026-09,CE,Nordeste,Serviços administrativos,55609,22065,19081,14463,14335,0
+2026-09,AM,Norte,Construção,13442,6879,3318,3245,10061,0
+2026-09,TO,Norte,Agropecuária,3112,923,923,1266,1034,0
+2026-09,PR,Sul,Saneamento,5064,2859,1234,971,1864,0
+2026-09,RO,Norte,Serviços administrativos,9088,4445,2963,1680,2943,0
+2026-09,RR,Norte,Construção,2982,1668,698,616,1482,0
+2026-09,AM,Norte,Indústria,17691,10722,3405,3564,10896,0
+2026-09,SE,Nordeste,Tecnologia e comunicação,4055,1939,1526,590,812,0
+2026-09,PB,Nordeste,Alimentação e hospedagem,21871,14992,4574,2305,11801,0
+2026-09,PB,Nordeste,Saneamento,1019,668,214,137,470,0
+2026-09,MT,Centro-Oeste,Serviços profissionais,40512,14597,19738,6177,8842,0
+2026-09,MA,Nordeste,Alimentação e hospedagem,22137,13527,5621,2989,13099,0
+2026-09,PB,Nordeste,Serviços domésticos,2032,1965,6,61,734,0
+2026-09,TO,Norte,Serviços domésticos,1080,1044,2,34,305,0
+2026-09,BA,Nordeste,Agropecuária,9622,3517,2559,3546,3818,0
+2026-09,BA,Nordeste,Serviços domésticos,6664,6414,11,239,3049,0
+2026-09,RO,Norte,Saúde,6326,341,4418,1567,1659,0
+2026-09,ES,Sudeste,Extrativa,1012,0,525,487,644,0
+2026-09,PR,Sul,Agropecuária,18226,7301,4982,5943,4572,0
+2026-09,SE,Nordeste,Cultura e lazer,2798,1140,1144,514,1119,0
+2026-09,MT,Centro-Oeste,Extrativa,958,0,358,600,363,0
+2026-09,RR,Norte,Indústria,3042,1928,712,402,1514,0
+2026-09,EX,Exterior,Construção,1123,0,0,1123,9,0
+2026-09,BA,Nordeste,Saneamento,2934,1614,721,599,1534,0
+2026-09,AP,Norte,Outros serviços,5390,1869,483,3038,3686,0
+2026-09,MA,Nordeste,Agropecuária,3030,800,1006,1224,1542,0
+2026-09,AC,Norte,Serviços administrativos,2662,1229,891,543,1298,0
+2026-09,AC,Norte,Saúde,1765,92,1107,566,639,0
+2026-09,RS,Sul,Saneamento,4112,2145,968,999,2031,0
+2026-09,MA,Nordeste,Serviços domésticos,665,635,4,26,299,0
+2026-09,EX,Exterior,Indústria,3485,0,0,3485,37,0
+2026-09,AL,Nordeste,Imobiliário,2377,0,1160,1217,378,0
+2026-09,RS,Sul,Energia,629,0,3,626,50,0
+2026-09,BA,Nordeste,Energia,659,0,1,658,75,0
+2026-09,MA,Nordeste,Energia,75,0,0,75,69,0
+2026-09,CE,Nordeste,Administração pública,2136,0,0,2136,64,0
+2026-09,CE,Nordeste,Financeiro,9288,0,1818,7470,1315,0
+2026-09,PR,Sul,Energia,1029,0,0,1029,67,0
+2026-09,PB,Nordeste,Agropecuária,1390,603,320,467,748,0
+2026-09,RO,Norte,Administração pública,584,0,0,584,29,0
+2026-09,MA,Nordeste,Saneamento,752,226,304,222,381,0
+2026-09,RO,Norte,Financeiro,1622,0,349,1273,289,0
+2026-09,AC,Norte,Financeiro,339,0,70,269,116,0
+2026-09,TO,Norte,Saneamento,352,170,97,85,190,0
+2026-09,TO,Norte,Energia,84,0,1,83,39,0
+2026-09,AC,Norte,Administração pública,236,0,0,236,6,0
+2026-09,PB,Nordeste,Energia,168,0,0,168,24,0
+2026-09,MS,Centro-Oeste,Organismos internacionais,9,0,0,9,3,0
+2026-09,PR,Sul,Construção,174367,109436,29263,35670,59600,0
+2026-09,SC,Sul,Serviços administrativos,147861,66987,42716,38163,19335,0
+2026-09,MG,Sudeste,Comércio,679397,353516,228432,97478,300557,0
+2026-09,PR,Sul,Indústria,168699,98871,43436,26396,56877,0
+2026-09,SP,Sudeste,Tecnologia e comunicação,309549,95914,163592,50045,57327,0
+2026-09,BA,Nordeste,Construção,72033,43392,13544,15100,39709,0
+2026-09,MA,Nordeste,Construção,18316,7889,5507,4920,10244,0
+2026-09,RS,Sul,Construção,154190,100442,24404,29347,61776,0
+2026-09,RS,Sul,Indústria,153849,89498,39881,24475,62172,0
+2026-09,SE,Nordeste,Comércio,47296,24262,14975,8063,25540,0
+2026-09,SC,Sul,Saúde,44501,6935,25942,11624,6655,0
+2026-09,PA,Norte,Serviços administrativos,26978,12496,8643,5839,11836,0
+2026-09,SP,Sudeste,Cultura e lazer,95545,40609,37357,17580,28382,0
+2026-09,GO,Centro-Oeste,Serviços administrativos,83465,40159,26538,16770,17324,0
+2026-09,RJ,Sudeste,Serviços administrativos,202469,98162,43770,60544,58049,0
+2026-09,DF,Centro-Oeste,Alimentação e hospedagem,29988,17278,7476,5234,23331,0
+2026-09,BA,Nordeste,Indústria,84246,54995,18156,11095,44166,0
+2026-09,TO,Norte,Construção,14689,9944,2259,2488,5854,0
+2026-09,RN,Nordeste,Serviços administrativos,21556,10527,6003,5026,5913,0
+2026-09,CE,Nordeste,Outros serviços,73223,37901,5160,30163,34377,0
+2026-09,GO,Centro-Oeste,Saúde,36916,4535,23258,9123,7158,0
+2026-09,RJ,Sudeste,Saúde,121354,34197,52625,34532,33850,0
+2026-09,PE,Nordeste,Alimentação e hospedagem,51241,36190,9196,5855,38398,0
+2026-09,MA,Nordeste,Indústria,19870,11716,5001,3153,11824,0
+2026-09,MT,Centro-Oeste,Educação,15970,9760,3915,2295,3346,0
+2026-09,MS,Centro-Oeste,Transporte,35339,26124,5075,4141,8032,0
+2026-09,PB,Nordeste,Indústria,22849,15325,4556,2968,10907,0
+2026-09,PB,Nordeste,Construção,21856,10824,3976,7057,8282,0
+2026-09,ES,Sudeste,Educação,21396,14362,4469,2565,3755,0
+2026-09,PA,Norte,Saúde,13600,818,8611,4171,4302,0
+2026-09,RR,Norte,Alimentação e hospedagem,4502,3043,949,510,2938,0
+2026-09,MG,Sudeste,Imobiliário,33457,3,11966,21488,3541,0
+2026-09,AP,Norte,Serviços administrativos,2658,1252,853,553,1732,0
+2026-09,PE,Nordeste,Agropecuária,3558,1368,818,1372,1654,0
+2026-09,RJ,Sudeste,Financeiro,39167,2,6548,32617,6239,0
+2026-09,RN,Nordeste,Saúde,12805,1619,6980,4206,2025,0
+2026-09,AM,Norte,Alimentação e hospedagem,21212,14478,3892,2842,16158,0
+2026-09,AC,Norte,Outros serviços,5801,2222,403,3177,3255,0
+2026-09,AL,Nordeste,Cultura e lazer,2996,1163,1207,626,1235,0
+2026-09,PE,Nordeste,Serviços domésticos,4231,4106,4,121,1887,0
+2026-09,SC,Sul,Financeiro,24876,2,3291,21583,1621,0
+2026-09,MS,Centro-Oeste,Serviços profissionais,27287,10333,12256,4698,5392,0
+2026-09,AL,Nordeste,Tecnologia e comunicação,5028,2344,1952,732,1136,0
+2026-09,PI,Nordeste,Alimentação e hospedagem,14900,9307,3838,1755,8123,0
+2026-09,PA,Norte,Administração pública,1695,0,0,1695,113,0
+2026-09,RO,Norte,Outros serviços,20106,10394,1203,8509,8050,0
+2026-09,SE,Nordeste,Imobiliário,1806,0,814,992,263,0
+2026-09,PI,Nordeste,Serviços domésticos,1321,1288,3,30,378,0
+2026-09,AP,Norte,Administração pública,238,0,0,238,18,0
+2026-09,TO,Norte,Indústria,11620,7780,2181,1659,5034,0
+2026-09,DF,Centro-Oeste,Serviços domésticos,2960,2840,18,102,1027,0
+2026-09,PE,Nordeste,Saneamento,2303,1409,506,388,1148,0
+2026-09,GO,Centro-Oeste,Financeiro,16308,0,2340,13968,1855,0
+2026-09,RR,Norte,Agropecuária,537,208,138,191,168,0
+2026-09,DF,Centro-Oeste,Energia,234,0,0,234,29,0
+2026-09,AM,Norte,Energia,86,0,1,85,13,0
+2026-09,AM,Norte,Serviços domésticos,722,690,4,28,340,0
+2026-09,RN,Nordeste,Administração pública,1369,0,0,1369,39,0
+2026-09,DF,Centro-Oeste,Saneamento,794,393,231,170,359,0
+2026-09,PI,Nordeste,Saneamento,596,268,178,150,266,0
+2026-09,RJ,Sudeste,Administração pública,1718,0,0,1718,116,0
+2026-09,PE,Nordeste,Energia,461,0,1,460,50,0
+2026-09,AM,Norte,Saneamento,819,437,193,189,535,0
+2026-09,PI,Nordeste,Energia,284,0,0,284,42,0
+2026-09,PI,Nordeste,Agropecuária,1723,567,531,625,758,0
+2026-09,AM,Norte,Agropecuária,1542,795,274,473,918,0
+2026-09,RN,Nordeste,Financeiro,3172,0,760,2412,651,0
+2026-09,AP,Norte,Saúde,1803,53,1311,439,579,0
+2026-09,RR,Norte,Saneamento,73,31,23,19,50,0
+2026-09,GO,Centro-Oeste,Administração pública,2765,0,0,2765,178,0
+2026-09,DF,Centro-Oeste,Agropecuária,1571,781,359,431,639,0
+2026-09,MS,Centro-Oeste,Extrativa,211,0,102,109,95,0
+2026-09,SC,Sul,Administração pública,2986,0,0,2986,73,0
+2026-09,PA,Norte,Financeiro,2684,0,601,2083,980,0
+2026-09,AP,Norte,Financeiro,264,0,51,213,139,0
+2026-09,RR,Norte,Serviços domésticos,131,127,0,4,35,0
+2026-09,EX,Exterior,Energia,133,0,0,133,0,0
+2026-09,EX,Exterior,Saneamento,48,0,0,48,0,0
+2026-09,EX,Exterior,Agropecuária,199,0,0,199,3,0
+2026-09,EX,Exterior,Alimentação e hospedagem,105,0,0,105,0,0
+2026-09,MT,Centro-Oeste,Organismos internacionais,3,0,0,3,8,0
+2026-09,RR,Norte,Energia,10,0,0,10,2,0
+2026-09,ES,Sudeste,Organismos internacionais,4,0,0,4,0,0
+2026-09,SP,Sudeste,Alimentação e hospedagem,514287,334041,116907,63347,299665,0
+2026-09,PR,Sul,Comércio,455600,198859,171985,84770,212669,0
+2026-09,BA,Nordeste,Comércio,376846,192671,126838,57344,249550,0
+2026-09,PB,Nordeste,Comércio,99257,58533,27063,13668,57183,0
+2026-09,MG,Sudeste,Construção,221810,152633,29794,39385,73745,0
+2026-09,CE,Nordeste,Transporte,52674,43906,4342,4426,16753,0
+2026-09,SC,Sul,Educação,51822,32956,14779,4088,6003,0
+2026-09,RS,Sul,Comércio,394509,185254,135413,73859,228722,0
+2026-09,TO,Norte,Comércio,50938,25828,16154,8956,29949,0
+2026-09,ES,Sudeste,Serviços administrativos,43200,21566,11275,10359,9171,0
+2026-09,MG,Sudeste,Indústria,242358,158430,56091,27845,87133,0
+2026-09,RJ,Sudeste,Educação,103574,71239,20136,12200,24284,0
+2026-09,MA,Nordeste,Comércio,138307,56710,56449,25149,92311,0
+2026-09,MS,Centro-Oeste,Outros serviços,36655,21149,2696,12810,12991,0
+2026-09,RO,Norte,Serviços profissionais,11795,4216,5954,1625,3056,0
+2026-09,MT,Centro-Oeste,Serviços administrativos,37519,19317,12014,6188,9720,0
+2026-09,PE,Nordeste,Cultura e lazer,9683,4187,3525,1971,4613,0
+2026-09,AC,Norte,Transporte,2485,1924,313,248,1003,0
+2026-09,RN,Nordeste,Educação,14588,9441,2595,2552,2746,0
+2026-09,PE,Nordeste,Tecnologia e comunicação,18250,8757,7079,2414,4527,0
+2026-09,SP,Sudeste,Serviços domésticos,85862,82736,331,2795,20670,0
+2026-09,SP,Sudeste,Saneamento,17075,9483,4342,3250,6509,0
+2026-09,PR,Sul,Imobiliário,31256,0,11162,20094,2752,0
+2026-09,CE,Nordeste,Serviços profissionais,51007,20276,22534,8197,12816,0
+2026-09,AM,Norte,Tecnologia e comunicação,6957,3149,2684,1125,2279,0
+2026-09,ES,Sudeste,Saúde,22539,3290,14381,4868,3937,0
+2026-09,SP,Sudeste,Agropecuária,550449,14495,7757,528197,10296,0
+2026-09,MT,Centro-Oeste,Financeiro,7394,0,1105,6289,877,0
+2026-09,GO,Centro-Oeste,Educação,33386,20359,7975,5052,6076,0
+2026-09,RS,Sul,Imobiliário,22759,2,9220,13537,2717,0
+2026-09,SE,Nordeste,Indústria,12088,7940,2506,1644,5150,0
+2026-09,SE,Nordeste,Construção,9991,6036,1890,2065,4600,0
+2026-09,DF,Centro-Oeste,Tecnologia e comunicação,22439,8338,10296,3805,4820,0
+2026-09,AM,Norte,Cultura e lazer,2621,938,946,737,1537,0
+2026-09,MT,Centro-Oeste,Saúde,21508,2318,12761,6429,4196,0
+2026-09,ES,Sudeste,Administração pública,1170,0,0,1170,35,0
+2026-09,AL,Nordeste,Alimentação e hospedagem,18958,12462,4111,2386,11991,0
+2026-09,MA,Nordeste,Imobiliário,2648,0,1064,1584,708,0
+2026-09,AC,Norte,Serviços profissionais,3674,1398,1603,674,1476,0
+2026-09,PA,Norte,Educação,16524,9218,3670,3636,6397,0
+2026-09,CE,Nordeste,Extrativa,607,1,340,266,302,0
+2026-09,ES,Sudeste,Financeiro,9315,0,1249,8066,850,0
+2026-09,AP,Norte,Educação,1595,942,339,314,637,0
+2026-09,PI,Nordeste,Tecnologia e comunicação,4505,1855,1953,697,1142,0
+2026-09,DF,Centro-Oeste,Cultura e lazer,6282,2608,2250,1425,2521,0
+2026-09,PB,Nordeste,Imobiliário,3396,0,1929,1467,430,0
+2026-09,AL,Nordeste,Agropecuária,1917,465,351,1101,571,0
+2026-09,BA,Nordeste,Imobiliário,12234,0,3608,8626,1952,0
+2026-09,RO,Norte,Transporte,12309,9033,1886,1390,3476,0
+2026-09,AL,Nordeste,Saneamento,1066,689,156,221,670,0
+2026-09,RR,Norte,Cultura e lazer,621,214,215,192,349,0
+2026-09,MT,Centro-Oeste,Administração pública,1799,0,0,1799,62,0
+2026-09,PI,Nordeste,Cultura e lazer,2731,746,1316,669,1214,0
+2026-09,TO,Norte,Imobiliário,1631,0,559,1072,323,0
+2026-09,SP,Sudeste,Energia,2070,0,2,2068,158,0
+2026-09,AL,Nordeste,Serviços domésticos,1155,1111,3,41,435,0
+2026-09,EX,Exterior,Tecnologia e comunicação,1578,0,0,1578,0,0
+2026-09,RR,Norte,Tecnologia e comunicação,1049,620,285,144,214,0
+2026-09,RO,Norte,Extrativa,307,0,149,158,182,0
+2026-09,AL,Nordeste,Energia,100,0,0,100,33,0
+2026-09,AC,Norte,Extrativa,36,0,23,13,29,0
+2026-09,SC,Sul,Organismos internacionais,10,0,0,10,2,0
+2026-09,RJ,Sudeste,Organismos internacionais,79,0,0,79,6,0
+2026-09,EX,Exterior,Cultura e lazer,93,0,0,93,0,0
+2026-09,PA,Norte,Organismos internacionais,6,0,0,6,10,0
+2026-09,GO,Centro-Oeste,Organismos internacionais,2,0,0,2,6,0
+2026-09,AP,Norte,Organismos internacionais,1,0,0,1,0,0
+2026-09,RN,Nordeste,Organismos internacionais,1,0,0,1,1,0
+2026-09,RJ,Sudeste,Serviços domésticos,24383,23219,53,1111,10435,0
+2026-09,PR,Sul,Outros serviços,174696,104986,14791,54922,43719,0
+2026-09,RJ,Sudeste,Alimentação e hospedagem,209700,151941,30982,26777,141088,0
+2026-09,SP,Sudeste,Educação,327295,209383,86303,31611,50330,0
+2026-09,DF,Centro-Oeste,Saúde,25077,2821,13522,8734,4782,0
+2026-09,PA,Norte,Alimentação e hospedagem,37522,24644,8285,4595,27829,0
+2026-09,RJ,Sudeste,Saneamento,4409,2493,949,967,2643,0
+2026-09,MG,Sudeste,Serviços profissionais,210802,81257,95886,33661,37333,0
+2026-09,RS,Sul,Outros serviços,167464,100052,13238,54177,48388,0
+2026-09,MG,Sudeste,Transporte,270852,216475,32670,21711,52751,0
+2026-09,RO,Norte,Construção,13163,8952,2254,1957,5195,0
+2026-09,DF,Centro-Oeste,Serviços administrativos,45059,18470,13470,13120,11241,0
+2026-09,CE,Nordeste,Indústria,56575,32823,13996,9756,35960,0
+2026-09,SC,Sul,Alimentação e hospedagem,86288,52175,23781,10338,43852,0
+2026-09,MS,Centro-Oeste,Comércio,96238,47038,28789,20412,51559,0
+2026-09,GO,Centro-Oeste,Alimentação e hospedagem,71807,50391,14620,6798,32880,0
+2026-09,MT,Centro-Oeste,Cultura e lazer,4896,1590,1948,1358,1863,0
+2026-09,RR,Norte,Serviços administrativos,2880,1480,937,463,989,0
+2026-09,SE,Nordeste,Serviços profissionais,12175,4692,5698,1785,3193,0
+2026-09,CE,Nordeste,Construção,35577,16140,8322,11115,15570,0
+2026-09,PB,Nordeste,Outros serviços,35326,16861,1927,16538,14367,0
+2026-09,RN,Nordeste,Alimentação e hospedagem,22531,15091,4738,2702,12129,0
+2026-09,PI,Nordeste,Saúde,10130,402,6334,3394,1976,0
+2026-09,ES,Sudeste,Tecnologia e comunicação,12489,5748,5163,1578,2157,0
+2026-09,BA,Nordeste,Outros serviços,125777,61290,6547,57942,62547,0
+2026-09,TO,Norte,Outros serviços,19526,8732,978,9817,6527,0
+2026-09,PE,Nordeste,Serviços administrativos,56218,27027,14238,14953,16408,0
+2026-09,GO,Centro-Oeste,Agropecuária,12571,4241,3658,4673,3263,0
+2026-09,SE,Nordeste,Transporte,16547,13946,1412,1189,3945,0
+2026-09,ES,Sudeste,Cultura e lazer,7070,3158,2548,1364,2435,0
+2026-09,RN,Nordeste,Agropecuária,1920,574,651,695,777,0
+2026-09,MS,Centro-Oeste,Imobiliário,3917,0,1372,2545,472,0
+2026-09,RO,Norte,Indústria,12543,7909,2819,1816,6411,0
+2026-09,PI,Nordeste,Administração pública,1978,0,0,1978,32,0
+2026-09,EX,Exterior,Financeiro,63050,0,0,63050,372,0
+2026-09,MT,Centro-Oeste,Tecnologia e comunicação,8692,3527,3709,1456,2594,0
+2026-09,SC,Sul,Serviços domésticos,22096,21453,89,554,3710,0
+2026-09,AL,Nordeste,Educação,9514,5254,1962,2298,2460,0
+2026-09,PA,Norte,Serviços domésticos,1155,1099,6,50,718,0
+2026-09,GO,Centro-Oeste,Saneamento,2979,1625,782,572,1231,0
+2026-09,PE,Nordeste,Saúde,28654,3574,16611,8469,5540,0
+2026-09,PE,Nordeste,Financeiro,7212,2,1651,5559,1681,0
+2026-09,RN,Nordeste,Serviços domésticos,1998,1923,7,68,666,0
+2026-09,MA,Nordeste,Outros serviços,42477,13204,2521,26752,22418,0
+2026-09,RJ,Sudeste,Agropecuária,5931,3983,831,1117,2631,0
+2026-09,PI,Nordeste,Serviços administrativos,11324,5201,3696,2428,3711,0
+2026-09,SC,Sul,Agropecuária,8968,4586,2069,2313,2777,0
+2026-09,PA,Norte,Agropecuária,5016,1685,1593,1738,2991,0
+2026-09,AM,Norte,Saúde,10184,1107,6417,2660,3226,0
+2026-09,DF,Centro-Oeste,Financeiro,9793,0,1837,7956,1374,0
+2026-09,PA,Norte,Saneamento,1143,533,331,279,771,0
+2026-09,AM,Norte,Serviços administrativos,20339,10233,6096,4010,8353,0
+2026-09,GO,Centro-Oeste,Serviços domésticos,10372,10131,33,208,2035,0
+2026-09,AM,Norte,Financeiro,2831,1,473,2357,543,0
+2026-09,SC,Sul,Saneamento,3706,1970,911,825,1228,0
+2026-09,AP,Norte,Alimentação e hospedagem,4507,2957,962,588,3651,0
+2026-09,EX,Exterior,Serviços administrativos,1409,0,0,1409,38,0
+2026-09,AC,Norte,Indústria,3035,1608,734,693,2272,0
+2026-09,RR,Norte,Saúde,1597,54,1106,437,396,0
+2026-09,MG,Sudeste,Extrativa,4439,3,2379,2057,2327,0
+2026-09,AC,Norte,Construção,2725,1235,714,777,1914,0
+2026-09,RJ,Sudeste,Energia,1130,0,3,1127,77,0
+2026-09,SC,Sul,Energia,1241,0,1,1240,90,0
+2026-09,AM,Norte,Administração pública,808,0,0,808,53,0
+2026-09,PE,Nordeste,Administração pública,2122,0,0,2122,81,0
+2026-09,PI,Nordeste,Financeiro,1372,0,525,847,338,0
+2026-09,PA,Norte,Energia,90,0,1,89,26,0
+2026-09,AP,Norte,Agropecuária,296,78,95,123,267,0
+2026-09,RN,Nordeste,Energia,416,0,1,415,59,0
+2026-09,RN,Nordeste,Saneamento,981,424,357,200,383,0
+2026-09,AP,Norte,Saneamento,97,30,42,25,76,0
+2026-09,RR,Norte,Administração pública,191,0,0,191,7,0
+2026-09,AP,Norte,Serviços domésticos,62,60,0,2,47,0
+2026-09,SE,Nordeste,Extrativa,163,0,108,55,91,0
+2026-09,RR,Norte,Financeiro,270,0,61,209,68,0
+2026-09,GO,Centro-Oeste,Energia,377,0,0,377,58,0
+2026-09,SP,Sudeste,Organismos internacionais,142,0,0,142,13,0
+2026-09,EX,Exterior,Saúde,120,0,0,120,0,0
+2026-09,DF,Centro-Oeste,Administração pública,459,0,0,459,51,0
+2026-09,EX,Exterior,Administração pública,23,0,0,23,0,0
+2026-09,AP,Norte,Energia,14,0,0,14,8,0
+2026-09,AL,Nordeste,Organismos internacionais,0,0,0,0,0,0
+2026-09,PR,Sul,Serviços administrativos,172257,73129,58916,40215,29596,0
+2026-09,CE,Nordeste,Alimentação e hospedagem,54183,35304,11802,7078,35198,0
+2026-09,SP,Sudeste,Serviços profissionais,643749,228487,302141,113129,119672,0
+2026-09,MT,Centro-Oeste,Comércio,142249,64889,47582,29779,78359,0
+2026-09,SC,Sul,Construção,141310,86506,23743,31062,42444,0
+2026-09,RJ,Sudeste,Construção,146563,97313,20816,28437,87966,0
+2026-09,ES,Sudeste,Comércio,146484,78665,44003,23819,69253,0
+2026-09,RJ,Sudeste,Indústria,167207,124554,22064,20593,87719,0
+2026-09,SC,Sul,Indústria,161649,95899,42381,23373,46006,0
+2026-09,RS,Sul,Serviços administrativos,148862,61247,37066,50552,30450,0
+2026-09,SP,Sudeste,Transporte,785592,632665,79337,73596,207887,0
+2026-09,MS,Centro-Oeste,Tecnologia e comunicação,6957,2888,2870,1199,1611,0
+2026-09,GO,Centro-Oeste,Construção,81123,50722,14075,16326,26917,0
+2026-09,AL,Nordeste,Serviços profissionais,14815,5888,6404,2523,3847,0
+2026-09,PA,Norte,Construção,27811,14212,7273,6326,17487,0
+2026-09,GO,Centro-Oeste,Indústria,86442,55206,19597,11640,36011,0
+2026-09,RN,Nordeste,Indústria,21767,14035,4744,2988,9945,0
+2026-09,PA,Norte,Indústria,34204,20144,8262,5799,22686,0
+2026-09,DF,Centro-Oeste,Outros serviços,47803,26119,5383,16301,22064,0
+2026-09,PE,Nordeste,Outros serviços,67193,36757,4044,26393,31967,0
+2026-09,MG,Sudeste,Educação,111885,68590,26319,16977,15901,0
+2026-09,RS,Sul,Saúde,65559,12404,35725,17430,15272,0
+2026-09,RN,Nordeste,Construção,19176,10276,3746,5154,8640,0
+2026-09,MA,Nordeste,Saúde,12716,547,8238,3931,3822,0
+2026-09,AM,Norte,Outros serviços,25318,10762,1895,12661,13180,0
+2026-09,BA,Nordeste,Serviços administrativos,79193,37227,22295,19672,27224,0
+2026-09,MA,Nordeste,Serviços administrativos,19116,7944,6779,4393,7493,0
+2026-09,AL,Nordeste,Transporte,21978,17697,1823,2458,6669,0
+2026-09,PR,Sul,Saúde,78198,9041,50286,18871,13177,0
+2026-09,CE,Nordeste,Agropecuária,3566,907,1263,1396,1681,0
+2026-09,BA,Nordeste,Saúde,55850,7062,32828,15960,11428,0
+2026-09,RO,Norte,Alimentação e hospedagem,12099,7989,2808,1302,7329,0
+2026-09,ES,Sudeste,Imobiliário,6232,0,2582,3650,671,0
+2026-09,PB,Nordeste,Financeiro,2964,0,790,2174,514,0
+2026-09,PR,Sul,Financeiro,32894,0,7501,25393,3238,0
+2026-09,TO,Norte,Serviços administrativos,10478,4927,3666,1886,2774,0
+2026-09,RS,Sul,Financeiro,23971,0,4751,19220,2982,0
+2026-09,PI,Nordeste,Outros serviços,27120,9821,1343,15956,11605,0
+2026-09,PB,Nordeste,Serviços administrativos,28308,12105,5957,10247,5642,0
+2026-09,TO,Norte,Administração pública,1037,0,0,1037,37,0
+2026-09,AP,Norte,Construção,2725,1069,880,776,2788,0
+2026-09,TO,Norte,Saúde,6238,700,3975,1563,1191,0
+2026-09,PB,Nordeste,Saúde,14283,1965,9691,2627,2157,0
+2026-09,AC,Norte,Alimentação e hospedagem,4146,2641,839,667,3452,0
+2026-09,RO,Norte,Serviços domésticos,1021,986,3,32,368,0
+2026-09,PR,Sul,Administração pública,5304,0,0,5304,115,0
+2026-09,BA,Nordeste,Financeiro,8316,1,2309,6006,1935,0
+2026-09,MT,Centro-Oeste,Imobiliário,6200,2,2197,4001,761,0
+2026-09,CE,Nordeste,Saneamento,1747,804,515,428,882,0
+2026-09,AP,Norte,Indústria,3264,1777,962,525,2438,0
+2026-09,MS,Centro-Oeste,Cultura e lazer,4596,1515,1674,1407,1678,0
+2026-09,RS,Sul,Administração pública,5540,0,0,5540,91,0
+2026-09,RR,Norte,Outros serviços,5367,2516,378,2473,2294,0
+2026-09,CE,Nordeste,Serviços domésticos,3118,3018,8,92,1342,0
+2026-09,TO,Norte,Financeiro,2046,0,276,1770,279,0
+2026-09,BA,Nordeste,Administração pública,3671,0,0,3671,197,0
+2026-09,RO,Norte,Saneamento,443,217,121,105,161,0
+2026-09,SE,Nordeste,Educação,7232,4467,1635,1130,1568,0
+2026-09,MA,Nordeste,Financeiro,2818,0,849,1969,710,0
+2026-09,MA,Nordeste,Administração pública,2113,0,0,2113,125,0
+2026-09,SP,Sudeste,Extrativa,1643,5,697,941,882,0
+2026-09,PB,Nordeste,Administração pública,1759,0,0,1759,55,0
+2026-09,RO,Norte,Agropecuária,1992,717,667,608,587,0
+2026-09,CE,Nordeste,Energia,1163,0,0,1163,139,0
+2026-09,AC,Norte,Saneamento,81,38,26,17,51,0
+2026-09,EX,Exterior,Outros serviços,207,0,0,207,2,0
+2026-09,MG,Sudeste,Organismos internacionais,17,0,0,17,15,0
+2026-09,AC,Norte,Serviços domésticos,137,134,0,3,55,0
+2026-09,AC,Norte,Agropecuária,498,154,132,212,238,0
+2026-09,AL,Nordeste,Extrativa,148,0,86,62,59,0
+2026-09,RO,Norte,Energia,95,0,1,94,14,0
+2026-09,AC,Norte,Energia,11,0,0,11,4,0
+2026-09,SE,Nordeste,Organismos internacionais,2,0,0,2,0,0
+2026-09,MT,Centro-Oeste,Outros serviços,48378,27347,4404,16629,16278,0
+2026-09,SC,Sul,Serviços profissionais,123098,52601,54025,16474,17619,0
+2026-09,SP,Sudeste,Indústria,559423,349240,126065,84125,201108,0
+2026-09,SP,Sudeste,Construção,519906,308739,92274,118896,210558,0
+2026-09,PI,Nordeste,Comércio,80239,36203,31127,12909,43277,0
+2026-09,PE,Nordeste,Comércio,189978,100409,58187,31384,140777,0
+2026-09,RJ,Sudeste,Serviços profissionais,161505,66263,67176,28068,54416,0
+2026-09,AM,Norte,Comércio,83580,36136,31134,16310,64411,0
+2026-09,MG,Sudeste,Alimentação e hospedagem,201739,137474,46391,17879,93336,0
+2026-09,RS,Sul,Tecnologia e comunicação,43819,18093,19272,6455,8120,0
+2026-09,RJ,Sudeste,Transporte,221939,190892,12214,18834,74622,0
+2026-09,AL,Nordeste,Construção,12356,6744,2439,3173,6180,0
+2026-09,GO,Centro-Oeste,Transporte,86431,68582,10604,7245,18819,0
+2026-09,GO,Centro-Oeste,Serviços profissionais,78915,33187,34404,11324,16040,0
+2026-09,ES,Sudeste,Outros serviços,57195,35743,3531,17922,19141,0
+2026-09,PA,Norte,Serviços profissionais,31039,12335,13420,5285,12485,0
+2026-09,DF,Centro-Oeste,Comércio,93241,39887,32521,20833,72646,0
+2026-09,PR,Sul,Cultura e lazer,21254,6856,9112,5286,6100,0
+2026-09,RS,Sul,Cultura e lazer,26224,8189,9053,8982,8673,0
+2026-09,RR,Norte,Comércio,16017,8143,5360,2514,9806,0
+2026-09,RN,Nordeste,Transporte,20581,17265,1680,1637,4903,0
+2026-09,SC,Sul,Transporte,123683,93331,17206,13150,26142,0
+2026-09,RN,Nordeste,Serviços profissionais,19767,8102,8835,2830,5116,0
+2026-09,PR,Sul,Tecnologia e comunicação,54809,20215,27218,7376,8608,0
+2026-09,PA,Norte,Transporte,36966,28686,4542,3740,15023,0
+2026-09,CE,Nordeste,Educação,31455,18930,7391,5134,7272,0
+2026-09,SE,Nordeste,Alimentação e hospedagem,11430,7733,2359,1338,6825,0
+2026-09,MG,Sudeste,Serviços domésticos,37140,36176,80,885,8032,0
+2026-09,SE,Nordeste,Agropecuária,873,301,295,277,313,0
+2026-09,BA,Nordeste,Tecnologia e comunicação,23067,11373,8863,2833,6178,0
+2026-09,MS,Centro-Oeste,Saúde,13546,1876,8257,3413,2276,0
+2026-09,MS,Centro-Oeste,Serviços administrativos,23686,11251,7276,5159,6301,0
+2026-09,PB,Nordeste,Cultura e lazer,4638,1803,1889,946,1795,0
+2026-09,AL,Nordeste,Indústria,14997,10200,2651,2146,7799,0
+2026-09,PB,Nordeste,Tecnologia e comunicação,9008,4214,3707,1087,1685,0
+2026-09,PE,Nordeste,Imobiliário,6799,1,2289,4509,1304,0
+2026-09,MG,Sudeste,Agropecuária,25511,11654,6645,7213,7005,0
+2026-09,TO,Norte,Cultura e lazer,1803,567,731,505,765,0
+2026-09,BA,Nordeste,Cultura e lazer,16500,6830,6264,3406,7932,0
+2026-09,AM,Norte,Imobiliário,1849,1,763,1085,420,0
+2026-09,MA,Nordeste,Tecnologia e comunicação,6567,2676,2728,1163,1977,0
+2026-09,AP,Norte,Serviços profissionais,3153,1004,1534,615,1404,0
+2026-09,AP,Norte,Extrativa,112,0,26,86,102,0
+2026-09,AP,Norte,Transporte,2027,1329,343,355,1012,0
+2026-09,RO,Norte,Educação,4253,2690,961,602,1072,0
+2026-09,MG,Sudeste,Saneamento,6592,3930,1602,1060,2577,0
+2026-09,TO,Norte,Tecnologia e comunicação,2812,1228,1104,480,726,0
+2026-09,RJ,Sudeste,Extrativa,1544,12,548,984,788,0
+2026-09,AC,Norte,Educação,2072,899,286,887,546,0
+2026-09,EX,Exterior,Comércio,2811,0,0,2811,16,0
+2026-09,MS,Centro-Oeste,Financeiro,4105,0,934,3171,580,0
+2026-09,MA,Nordeste,Cultura e lazer,3975,918,1994,1063,2101,0
+2026-09,PA,Norte,Extrativa,613,0,218,395,468,0
+2026-09,MS,Centro-Oeste,Administração pública,1041,0,0,1041,45,0
+2026-09,SE,Nordeste,Serviços domésticos,973,948,4,21,346,0
+2026-09,DF,Centro-Oeste,Imobiliário,7277,0,3195,4082,1229,0
+2026-09,SE,Nordeste,Saneamento,430,249,80,101,190,0
+2026-09,MG,Sudeste,Energia,2014,0,2,2012,83,0
+2026-09,PI,Nordeste,Imobiliário,1366,0,563,803,270,0
+2026-09,RR,Norte,Imobiliário,427,0,149,278,48,0
+2026-09,SE,Nordeste,Energia,22,0,0,22,4,0
+2026-09,SC,Sul,Extrativa,714,1,359,354,230,0
+2026-09,GO,Centro-Oeste,Extrativa,1013,0,475,538,686,0
+2026-09,EX,Exterior,Imobiliário,1158,0,0,1158,8,0
+2026-09,RN,Nordeste,Extrativa,435,19,190,226,265,0
+2026-09,RO,Norte,Organismos internacionais,1,0,0,1,1,0
+2026-09,AC,Norte,Organismos internacionais,2,0,0,2,1,0
+2026-09,CE,Nordeste,Organismos internacionais,4,0,0,4,1,0
+2026-09,CE,Nordeste,Comércio,216306,117265,60816,38228,135434,0
+2026-09,MT,Centro-Oeste,Alimentação e hospedagem,38579,25723,8198,4658,21669,0
+2026-09,PR,Sul,Transporte,174988,126511,28482,19997,38265,0
+2026-09,SP,Sudeste,Serviços administrativos,830464,355973,293601,180898,164861,0
+2026-09,MG,Sudeste,Outros serviços,283820,179446,18056,86324,83808,0
+2026-09,SP,Sudeste,Saúde,327301,55309,182108,89884,56095,0
+2026-09,PB,Nordeste,Transporte,24763,21802,1665,1296,5747,0
+2026-09,PB,Nordeste,Serviços profissionais,21555,8788,9834,2933,4692,0
+2026-09,RO,Norte,Comércio,50466,23499,17200,9767,34734,0
+2026-09,BA,Nordeste,Transporte,104640,83882,11546,9214,33472,0
+2026-09,RJ,Sudeste,Cultura e lazer,36404,17005,13080,6320,14700,0
+2026-09,MA,Nordeste,Serviços profissionais,23276,8059,10974,4243,7594,0
+2026-09,MS,Centro-Oeste,Indústria,25601,16456,4901,4245,9943,0
+2026-09,BA,Nordeste,Serviços profissionais,79249,31308,35095,12847,23123,0
+2026-09,PA,Norte,Tecnologia e comunicação,7911,3878,2868,1165,2781,0
+2026-09,MS,Centro-Oeste,Construção,32744,21417,4994,6333,12557,0
+2026-09,RS,Sul,Transporte,139364,100849,23033,15489,36310,0
+2026-09,PR,Sul,Serviços profissionais,163258,62147,78257,22856,25091,0
+2026-09,ES,Sudeste,Alimentação e hospedagem,48950,35968,8356,4627,24811,0
+2026-09,MA,Nordeste,Transporte,20094,15036,2672,2386,6055,0
+2026-09,AC,Norte,Comércio,18286,7971,6249,4068,16334,0
+2026-09,CE,Nordeste,Imobiliário,8442,1,2788,5653,1404,0
+2026-09,AL,Nordeste,Saúde,6852,812,4100,1940,1543,0
+2026-09,ES,Sudeste,Saneamento,1683,1134,294,255,760,0
+2026-09,RN,Nordeste,Tecnologia e comunicação,7559,3658,3025,876,1348,0
+2026-09,SE,Nordeste,Outros serviços,19122,9735,1059,8328,8407,0
+2026-09,RJ,Sudeste,Tecnologia e comunicação,70701,31341,28779,10583,19849,0
+2026-09,TO,Norte,Serviços profissionais,12828,4450,6303,2075,2952,0
+2026-09,SP,Sudeste,Financeiro,164388,2,29863,134523,17022,0
+2026-09,RS,Sul,Serviços profissionais,132851,50711,62575,19568,23118,0
+2026-09,SC,Sul,Cultura e lazer,19244,6014,6766,6464,5557,0
+2026-09,AL,Nordeste,Serviços administrativos,15497,7869,3763,3865,4866,0
+2026-09,PA,Norte,Cultura e lazer,5778,1714,2352,1712,3347,0
+2026-09,SC,Sul,Tecnologia e comunicação,40830,16792,17971,6068,5198,0
+2026-09,ES,Sudeste,Serviços domésticos,7698,7466,11,221,2090,0
+2026-09,ES,Sudeste,Agropecuária,4079,2294,947,838,1080,0
+2026-09,PB,Nordeste,Extrativa,298,0,146,152,208,0
+2026-09,GO,Centro-Oeste,Tecnologia e comunicação,20440,9510,8098,2832,4482,0
+2026-09,PE,Nordeste,Educação,35532,23883,6441,5209,8821,0
+2026-09,DF,Centro-Oeste,Educação,23605,14578,6113,2914,5399,0
+2026-09,TO,Norte,Transporte,11976,9103,1616,1258,3185,0
+2026-09,GO,Centro-Oeste,Cultura e lazer,10822,3994,4506,2322,3361,0
+2026-09,AM,Norte,Educação,11221,8009,1880,1332,2998,0
+2026-09,RN,Nordeste,Cultura e lazer,4789,1932,1802,1055,1860,0
+2026-09,RO,Norte,Imobiliário,1059,0,340,719,198,0
+2026-09,SP,Sudeste,Administração pública,5889,0,0,5889,231,0
+2026-09,MT,Centro-Oeste,Agropecuária,15037,5356,3758,5923,3333,0
+2026-09,MT,Centro-Oeste,Serviços domésticos,4353,4217,27,109,1070,0
+2026-09,MT,Centro-Oeste,Saneamento,1634,955,385,294,771,0
+2026-09,PI,Nordeste,Educação,7771,4228,1720,1823,2187,0
+2026-09,RR,Norte,Educação,1612,1166,282,164,332,0
+2026-09,AP,Norte,Tecnologia e comunicação,1037,520,330,187,412,0
+2026-09,BA,Nordeste,Extrativa,1445,3,738,704,967,0
+2026-09,RS,Sul,Extrativa,1399,0,954,445,794,0
+2026-09,AL,Nordeste,Administração pública,1092,0,0,1092,31,0
+2026-09,AP,Norte,Cultura e lazer,775,151,299,325,621,0
+2026-09,MT,Centro-Oeste,Energia,401,0,0,401,37,0
+2026-09,AL,Nordeste,Financeiro,1988,0,397,1591,386,0
+2026-09,AC,Norte,Imobiliário,255,0,75,180,70,0
+2026-09,PR,Sul,Extrativa,889,0,391,498,442,0
+2026-09,MA,Nordeste,Extrativa,252,0,126,126,194,0
+2026-09,TO,Norte,Extrativa,293,0,131,162,182,0
+2026-09,ES,Sudeste,Energia,107,0,0,107,8,0
+2026-09,EX,Exterior,Organismos internacionais,1443,0,0,1443,57,0
+2026-09,EX,Exterior,Educação,146,0,0,146,0,0
+2026-09,DF,Centro-Oeste,Organismos internacionais,226,0,0,226,2,0
+2026-09,AM,Norte,Organismos internacionais,10,0,0,10,1,0
+2026-09,PE,Nordeste,Organismos internacionais,20,0,0,20,3,0
+2026-09,PI,Nordeste,Organismos internacionais,2,0,0,2,3,0
+2026-09,RR,Norte,Organismos internacionais,2,0,0,2,0,0

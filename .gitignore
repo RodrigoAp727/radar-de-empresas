@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dados pesados (só a camada gold vai para o repositório)
+data/raw/
+data/bronze/
+data/tmp/
+data/*.duckdb
+data/*.duckdb.wal
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/.user.yml
+logs/
+
+# Evidence
+dashboard/node_modules/
+dashboard/.evidence/
+dashboard/build/
+dashboard/static/data/
+dashboard/sources/radar/*.duckdb.wal
+data/*.duckdb.tmp/
+
+# Rascunhos pessoais (não versionar)
+posts-linkedin.md
